@@ -4,7 +4,11 @@ import LoginView from "./src/containers/Login";
 
 export default class App extends React.Component {
   render() {
-    return <LoginView />;
+    return (
+      <View style={styles.container}>
+        <LoginView />
+      </View>
+    );
   }
 }
 
